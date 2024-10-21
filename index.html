@@ -1,28 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller 1</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="icon" href="data:,">
+    <<link rel="icon" href="data:,">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <script type="module" src='./scripts/main.js'></script>
 </head>
 <body>
-    <h1> Taller 1</h1>
-    <h2 id="tabla"> Series </h2>
-    <table class="series" id="series">
-        <thead> 
-            <tr>
-                <th>#</th>
-                <th>Nombre</th>
-                <th>Canal</th>
-                <th>Temporadas</th>
-            </tr>
-        </thead>
-    </table>
-<table class="promedio" id="promedio"></table>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <h2>Series</h2>
+                <table class="table" id="series">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Canal</th>
+                            <th>Temporadas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <table class="promedio" id="promedio"></table>
+            </div>
+            <div class="col-6">
+                <div id="serieDetalle">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
